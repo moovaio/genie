@@ -2,10 +2,10 @@
 
 use Mockery as m;
 
-class TestCase extends PHPUnit_Framework_TestCase
+class TestCase extends PHPUnit\Framework\TestCase
 {
 
-    public function tearDown()
+    public function tearDown() :void
     {
         m::close();
     }
