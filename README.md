@@ -17,16 +17,10 @@ Dedicated to the World's best (and only) Genie in a bottle. [Congrats on the fre
 
 ## Installation
 
-For Laravel 5.4 and above
+For Laravel 6 and above
 
 ```bash
-composer require optimus/genie ~2.0
-```
-
-For Laravel 5.3 and below
-
-```bash
-composer require optimus/genie ~1.0
+composer require moova/optimus-genie dev-master
 ```
 
 ## Implementation

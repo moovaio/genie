@@ -1,15 +1,7 @@
 {
-    "name": "optimus/genie",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/moovaio/bruno.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/moovaio/architect.git"
-        }
-    ],
+    "name": "moova/optimus-genie",
+    "description":"moova.io fork for esbenp: optimus/genie package",
+    "homepage":"https://github.com/moovaio/genie",
     "autoload": {
         "psr-4": {
             "Optimus\\Genie\\": "src/"
@@ -17,7 +9,7 @@
     },
     "require": {
         "illuminate/database": ">=4.0",
-        "optimus/bruno": "dev-laravel-6"
+        "moova/optimus-bruno": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "1.3.*",
