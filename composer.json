@@ -9,12 +9,12 @@
     },
     "require": {
         "illuminate/database": ">=4.0",
-        "moova/optimus-bruno": "dev-master"
+        "moova/optimus-bruno": "7.0.1"
     },
     "require-dev": {
-        "mockery/mockery": "1.3.*",
-        "phpunit/phpunit": "^8.5",
-        "php-coveralls/php-coveralls": "2.2.*"
+        "mockery/mockery": "1.5.*",
+        "phpunit/phpunit": "^9.0",
+        "php-coveralls/php-coveralls": "2.5.*"
     },
     "autoload-dev": {
 		"files": [
